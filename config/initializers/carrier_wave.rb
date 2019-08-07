@@ -8,5 +8,6 @@ if Rails.env.production?
         :region => ENV['us-west-1']
     }
       config.fog_directory     =  ENV['aws-sabuck']
+      config.fog_provider = 'fog/aws'
     end
   end
