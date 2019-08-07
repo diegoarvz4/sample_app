@@ -3,10 +3,10 @@ if Rails.env.production?
       config.fog_credentials = {
         # Configuration for Amazon S3
         :provider              => 'AWS',
-        :aws_access_key_id     => ENV['AKIATZTTGEDBBCII4PYZ'],
-        :aws_secret_access_key => ENV['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'],
-        :region => ENV['eu-central-1']
+        :aws_access_key_id     => ENV['AKIATZTTGEDBM2QOKW4H'],
+        :aws_secret_access_key => ENV['KW9H+bBu7XGF9khAezSRxzlzN6z6/YMldJ7r44cQ'],
+        :region => ENV['us-west-1']
     }
-      config.fog_directory     =  ENV['imagemagick-sample-app']
+      config.fog_directory     =  ENV['aws-sabuck']
     end
   end
